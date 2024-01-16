@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+ background: #2e2e2e;
+ color:  #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    border:1px solid grey;
+box-shadow: 0.5em 0.2em 2em 0.5em rgb(2, 3, 4, 100);    
+width: 20em;
+height: 50em;
+margin-top: 2em;
+}
+#addcandidate{
+    width: 13em;
+    height: 2em;
+    border: none;
+    border-radius: 3em;
+}
+#addcandidate:focus{
+    outline: 1px solid greenyellow;
+}
+#addBtn{
+    height: 2.2em;
+    color: antiquewhite;
+    background-color: #89b71d;
+    border: none;
+    border-radius: 3em;
+    font-family: 'Work Sans', sans-serif;
+}
+#addBtn:hover{
+    outline: 1px solid greenyellow;
+
+}
+tr{
+    color:#89b71d;
+   
+    border: 1px solid green;
+}
+img{
+    width: 3em;
+    height: 3em;
+}
+#candidateTable{
+    margin-top: 1em;
+}
+.firstRow{
+    color: antiquewhite;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
